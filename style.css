@@ -1,19 +1,14 @@
 * {
     background-color: rgb(30, 26, 32);
-    padding: 0%;
-}
-
-h1 {
-    display: block;
-    margin: 0%;
-    padding: 0%;
-    text-align: center;
-    color: rgb(88, 143, 143);
+    padding: 0em;
+    margin: 0;
 }
 
 body > video {
-    width: 700px;
-    margin: 0em auto;
-    display: block;
-    margin-top: 10%;
+    max-width: 100%;
+    width: 70em;
+    height: 90em;
+    transform: rotate(90deg);
+    
 }
+
