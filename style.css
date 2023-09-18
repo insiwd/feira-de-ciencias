@@ -1,14 +1,31 @@
-* {
-    background-color: rgb(30, 26, 32);
-    padding: 0em;
+html,
+body {
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    padding: 0;
     margin: 0;
 }
 
-body > video {
-    max-width: 100%;
-    width: 70em;
-    height: 90em;
-    transform: rotate(90deg);
-    
+body {
+    background: rgb(48,12,82);
+    background: radial-gradient(circle, rgba(48,12,82,1) 0%, rgba(3,3,4,1) 100%);
 }
 
+.wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper>video {
+
+    max-width: 50em;
+    max-height: 30em;
+    width: 650px;
+    height: 400px;
+    padding: 16px;
+    transform: rotate(90deg);
+
+}
